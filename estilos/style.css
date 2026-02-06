@@ -235,9 +235,9 @@ article h2 {
 #projeto-container .foto {
   width: 100%;
   aspect-ratio: 16/9;
-  object-fit: contain;
+  object-fit: cover;
   overflow: hidden;
-  border-radius: 8px
+  border-radius: 8px;
 }
 
 
@@ -259,6 +259,6 @@ article h2 {
   #projeto-container .foto {
     aspect-ratio: 1/1;
     max-width: 20%;
-    max-width: 200px;
+    max-height: 200px;
   }
 }
